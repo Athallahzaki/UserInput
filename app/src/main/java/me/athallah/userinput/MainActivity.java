@@ -37,12 +37,12 @@ public class MainActivity extends AppCompatActivity {
 //                menu1 = " ";
 //            }
             if (ayam2.isChecked()) {
-                menu2 = "Ayam Geprek";
+                menu2 = "Ayam Bakar";
             } else if (!ayam2.isChecked()) {
                 menu2 = " ";
             }
             if (ayam3.isChecked()) {
-                menu3 = "Ayam Geprek";
+                menu3 = "Soto Ayam";
             } else if (!ayam3.isChecked()) {
                 menu3 = " ";
             }
