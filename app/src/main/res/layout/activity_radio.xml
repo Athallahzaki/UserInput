@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="hardcodedText"
+    tools:context=".RadioActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bahasa Pemrograman Yang Digunakan Android"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/grupPert_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <RadioButton
+            android:id="@+id/jwb_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XML dan C++" />
+
+        <RadioButton
+            android:id="@+id/jwb_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HTML Dan PHP" />
+
+        <RadioButton
+            android:id="@+id/jwb_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Java dan XML" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_jawab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Jawab" />
+
+    <TextView
+        android:id="@+id/scoretxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Score : " />
+
+
+
+</LinearLayout>
